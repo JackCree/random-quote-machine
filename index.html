@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<html lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Random Quote Machine</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="quote-box">
+			<!--Citation-->
+			<div class="quote-text">
+				<i class="fa fa-quote-left"></i><span id="text"></span>
+			</div>
+			<!--author Name-->
+			<div id="quote-author">- <span id="author"></span></div>
+			<!--Buttons to share the quote-->
+			<div class="buttons">
+				<a class="button" id="tweet-quote" title="Tweet this quote!" target="_top" ><i class="fa fa-twitter"></i></a>
+				<a class="button" id="tumblr-quote" title="Post this quote on Tumblr!" target="_blank" ><i class="fa fa-tumblr"></i></a>	
+
+				<button class="button" id="new-quote">New quote</button>			
+			</div>
+		</div>
+		<div class="footer">With the help of <a href="https://codepen.io/hezag">hexag</a>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src='script.js'></script>
+</body>
+</html>
